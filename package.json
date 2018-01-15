@@ -20,7 +20,7 @@
     "build": "poi build",
     "dev": "poi",
     "heroku-postbuild": "npm run build",
-    "start": "superstatic --port ${PORT:-3000}",
+    "start": "superstatic --port ${PORT:-3000} --host 0.0.0.0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
