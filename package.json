@@ -19,7 +19,7 @@
     "clean": "/bin/rm -rf dist node_modules",
     "build": "poi build",
     "dev": "poi",
-    "postinstall": "npm run build",
+    "heroku-postbuild": "npm run build",
     "start": "superstatic --port ${PORT:-3000}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
