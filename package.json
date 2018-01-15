@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/snappenio/delirium/issues"
   },
-  "homepage": "https://github.com/snappenio/delirium#readme"
+  "homepage": "https://github.com/snappenio/delirium#readme",
+  "engines": {
+    "node" : ">=8.9.2"
+  }
 }
