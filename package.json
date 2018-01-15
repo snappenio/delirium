@@ -1,0 +1,34 @@
+{
+  "name": "delirium",
+  "version": "0.0.1",
+  "description": "Frontend for snappen.io",
+  "main": "index.js",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "superstatic": "^5.0.1",
+    "vue": "^2.5.13",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2",
+    "poi": "^9.6.12",
+    "sass-loader": "^6.0.6"
+  },
+  "scripts": {
+    "build": "poi build",
+    "dev": "poi",
+    "start": "superstatic --port ${PORT:-3000}",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snappenio/delirium.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snappenio/delirium/issues"
+  },
+  "homepage": "https://github.com/snappenio/delirium#readme"
+}
