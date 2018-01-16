@@ -11,4 +11,8 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil|Roboto');
+@import './scss/normalize';
+@import './scss/core';
+@import './scss/config';
 </style>
