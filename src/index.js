@@ -11,7 +11,7 @@ const registerAll = (context, prefix) => context.keys().forEach(p => {
   Vue.component(prefix + name, context(p).default);
 });
 
-// registerAll(require.context('@/components', false, /.*\.vue/), 'sp');
+registerAll(require.context('@/components', false, /.*\.vue/), 'sp');
 // registerAll(require.context('@/components_presentational', false, /.*\.vue/), 'spP');
 
 new Vue({

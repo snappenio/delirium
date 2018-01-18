@@ -1,7 +1,6 @@
 <template>
   <main class="container">
-    <h1>snappen.io</h1>
-    hello world!
+    Hello world!
   </main>
 </template>
 
